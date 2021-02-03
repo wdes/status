@@ -2,6 +2,7 @@ owner: wdes
 repo: status
 
 user-agent: Wdes status (https://github.com/wdes/status)
+robotsText: "User-agent: *\n Disallow: /"
 assignees:
   - williamdes
 
@@ -12,8 +13,12 @@ sites:
     url: https://wdes.eu
   - name: Google 204
     url: https://google.com/generate_204
+    expectedStatusCodes:
+      - 204
   - name: DC4 server
     url: $DC4_SERVER_URL
+    expectedStatusCodes:
+      - 403
   - name: Williamdes's website
     url: https://william.wdes.fr
   - name: Corentin's website
@@ -28,7 +33,7 @@ status-website:
   navbar:
     - title: Status
       href: /
-    - title: GitHub
+    - title: GitHub config
       href: https://github.com/$OWNER/$REPO
 
 commitMessages:
