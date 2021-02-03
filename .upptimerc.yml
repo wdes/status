@@ -12,6 +12,12 @@ sites:
     url: https://wdes.eu
   - name: Google 204
     url: https://google.com/generate_204
+  - name: DC4 server
+    url: $DC4_SERVER_URL
+  - name: Williamdes's website
+    url: https://william.wdes.fr
+  - name: Corentin's website
+    url: https://corentin.wdes.fr
 
 status-website:
   cname: status.datacenters.network
