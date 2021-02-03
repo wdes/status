@@ -6,6 +6,8 @@ sites:
     url: https://wdes.fr
   - name: Wdes EU
     url: https://wdes.eu
+  - name: Google 204
+    url: https://google.com/generate_204
 
 status-website:
   cname: status.datacenters.network
