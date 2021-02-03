@@ -1,0 +1,20 @@
+owner: wdes
+repo: status
+
+sites:
+  - name: Wdes FR
+    url: https://wdes.fr
+  - name: Wdes EU
+    url: https://wdes.eu
+
+status-website:
+  cname: status.datacenters.network
+  logoUrl: https://wdes.fr/logo.svg
+  name: Datacenters network
+  introTitle: "**datacenters.network** is a domain of the Wdes company"
+  introMessage: My status page uses **real-time** data from our [GitHub repository](https://github.com/wdes/status). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime#readme)
+  navbar:
+    - title: Status
+      href: /
+    - title: GitHub
+      href: https://github.com/$OWNER/$REPO
