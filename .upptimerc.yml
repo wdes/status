@@ -36,6 +36,22 @@ status-website:
     - title: GitHub config
       href: https://github.com/$OWNER/$REPO
 
+workflowSchedule:
+  # https://crontab.guru/#0_0_*_*_*
+  graphs: "0 0 * * *"
+  # https://crontab.guru/#*/30_*_*_*_*
+  responseTime: "*/30 * * * *"
+  # https://crontab.guru/#0_*_*_*_*
+  staticSite: "0 * * * *"
+  # https://crontab.guru/#0_0_*_*_*
+  summary: "0 0 * * *"
+  # https://crontab.guru/#0_0_*_*_*
+  updateTemplate: "0 0 * * *"
+  # https://crontab.guru/#0_3_*_*_*
+  updates: "0 3 * * *"
+  # https://crontab.guru/#*/5_*_*_*_*
+  uptime: "*/5 * * * *"
+
 commitMessages:
   commitAuthorName: "Wdes Bot"
   commitAuthorEmail: "wdes-bot@users.noreply.github.com"
