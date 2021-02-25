@@ -9,8 +9,12 @@ assignees:
 sites:
   - name: Wdes FR
     url: https://wdes.fr
+    expectedStatusCodes:
+      - 200
   - name: Wdes EU
     url: https://wdes.eu
+    expectedStatusCodes:
+      - 200
   - name: Google 204
     url: https://google.com/generate_204
     expectedStatusCodes:
@@ -18,11 +22,15 @@ sites:
   - name: DC4 server
     url: $DC4_SERVER_URL
     expectedStatusCodes:
-      - 403
+      - 200
   - name: Williamdes's website
     url: https://william.wdes.fr
+    expectedStatusCodes:
+      - 200
   - name: Corentin's website
     url: https://corentin.wdes.fr
+    expectedStatusCodes:
+      - 200
 
 status-website:
   cname: status.datacenters.network
