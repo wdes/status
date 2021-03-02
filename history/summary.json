@@ -11,8 +11,8 @@
     "uptimeMonth": "99.97%",
     "uptimeYear": "99.97%",
     "time": 510,
-    "timeDay": 533,
-    "timeWeek": 504,
+    "timeDay": 536,
+    "timeWeek": 505,
     "timeMonth": 510,
     "timeYear": 510,
     "dailyMinutesDown": {
@@ -24,19 +24,19 @@
     "url": "https://wdes.eu",
     "icon": "https://favicons.githubusercontent.com/wdes.eu",
     "slug": "wdes-eu",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "up",
+    "uptime": "99.96%",
+    "uptimeDay": "99.02%",
+    "uptimeWeek": "99.86%",
+    "uptimeMonth": "99.96%",
+    "uptimeYear": "99.96%",
     "time": 385,
-    "timeDay": 385,
-    "timeWeek": 474,
+    "timeDay": 389,
+    "timeWeek": 475,
     "timeMonth": 385,
     "timeYear": 385,
     "dailyMinutesDown": {
-      "2021-03-02": 0
+      "2021-03-02": 14
     }
   },
   {
@@ -90,8 +90,8 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 480,
-    "timeDay": 485,
-    "timeWeek": 524,
+    "timeDay": 483,
+    "timeWeek": 521,
     "timeMonth": 480,
     "timeYear": 480,
     "dailyMinutesDown": {}
@@ -108,8 +108,8 @@
     "uptimeMonth": "99.65%",
     "uptimeYear": "99.65%",
     "time": 303,
-    "timeDay": 290,
-    "timeWeek": 303,
+    "timeDay": 291,
+    "timeWeek": 304,
     "timeMonth": 303,
     "timeYear": 303,
     "dailyMinutesDown": {
