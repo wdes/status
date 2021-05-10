@@ -23,8 +23,20 @@ sites:
     url: $DC4_SERVER_URL
     expectedStatusCodes:
       - 200
+  - name: Sn-bretagne
+    url: https://sn-bretagne.net/liens
+    expectedStatusCodes:
+      - 200
+  - name: DC2 server
+    url: $DC2_SERVER_URL
+    expectedStatusCodes:
+      - 200
   - name: Williamdes's website
-    url: https://william.wdes.fr
+    url: https://williamdes.eu
+    expectedStatusCodes:
+      - 200
+  - name: Williamdes's blog
+    url: https://blog.williamdes.eu
     expectedStatusCodes:
       - 200
   - name: Corentin's website
