@@ -14,7 +14,7 @@ sites:
   - name: Wdes EU
     url: https://wdes.eu
     expectedStatusCodes:
-      - 200
+      - 301
   - name: Google 204
     url: https://google.com/generate_204
     expectedStatusCodes:
@@ -29,6 +29,18 @@ sites:
       - 200
   - name: DC2 server
     url: $DC2_SERVER_URL
+    expectedStatusCodes:
+      - 200
+  - name: Bitwarden Rust (vaultwarden)
+    url: $BITWARDEN_CLOUD
+    expectedStatusCodes:
+      - 200
+  - name: phpMyAdmin sentry instance
+    url: $PHPMYADMIN_SENTRY
+    expectedStatusCodes:
+      - 200
+  - name: phpMyAdmin error reports
+    url: https://reports.phpmyadmin.net/robots.txt
     expectedStatusCodes:
       - 200
   - name: Williamdes's website
