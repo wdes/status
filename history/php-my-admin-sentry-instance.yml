@@ -1,7 +1,7 @@
 url: $PHPMYADMIN_SENTRY
 status: up
 code: 200
-responseTime: 623
-lastUpdated: 2021-11-07T12:25:32.307Z
+responseTime: 508
+lastUpdated: 2021-11-07T12:56:20.304Z
 startTime: Wed Jul 14 2021 13:15:25 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
