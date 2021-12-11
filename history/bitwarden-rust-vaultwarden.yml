@@ -1,7 +1,7 @@
 url: $BITWARDEN_CLOUD
-status: down
-code: 523
-responseTime: 127
-lastUpdated: 2021-12-11T11:10:36.971Z
+status: up
+code: 200
+responseTime: 429
+lastUpdated: 2021-12-11T11:14:08.277Z
 startTime: Wed Jul 14 2021 13:15:24 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
