@@ -1,7 +1,7 @@
 url: $PHPMYADMIN_SENTRY
 status: down
 code: 502
-responseTime: 501
-lastUpdated: 2022-03-19T16:52:52.209Z
+responseTime: 758
+lastUpdated: 2022-03-19T17:16:21.362Z
 startTime: Wed Jul 14 2021 13:15:25 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
